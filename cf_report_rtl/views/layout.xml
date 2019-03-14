@@ -4,8 +4,8 @@
     <data>
         <template id="report_assets_pdf" inherit_id="web.report_assets_pdf">
             <xpath expr="." position="inside">
-                <link href="/web_rtl/static/src/css/bootstrap-rtl.min.css" rel="stylesheet"/>
-                <link href="/report_rtl/static/src/css/rtl.css" rel="stylesheet"/>
+                <link href="/cf_web_rtl/static/src/css/bootstrap-rtl.min.css" rel="stylesheet"/>
+                <link href="/cf_report_rtl/static/src/css/rtl.css" rel="stylesheet"/>
             </xpath>
         </template>
     </data>

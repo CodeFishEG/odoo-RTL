@@ -84,15 +84,21 @@
        url(/web_rtl/static/src/fonts/Amiri-Bold.woff) format('woff'),
        url(/web_rtl/static/src/fonts/Amiri-Bold.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/cf_web_rtl/static/src/fonts/Cairo-Regular.ttf) format('truetype');
+}
 
 .rtl{direction:rtl}
-*:not(.fa){font-family: 'Droid Arabic Naskh', serif;}
+*:not(.fa){font-family: 'Cairo', serif;}
 
 /*
 * reset switch manager fonts
 */
 .rtl .oe_e, .rtl .oe_e a  {
-font-family: "entypoRegular" !important;
+font-family: "Cairo" !important;
 }
 
 
@@ -131,7 +137,7 @@ padding: 0px 2px;
     float: left;
 }
 .rtl  .oe_form input[type="text"], .rtl  .oe_form input[type="password"], .rtl  .oe_form input[type="file"], .rtl  .oe_form select, .rtl  .oe_form textarea{
-    font-family: 'Droid Arabic Naskh', serif;
+    font-family: 'Cairo', serif;
 
 }
 .rtl  .oe_form input[type="text"], .rtl  .oe_form input[type="password"], .rtl  .oe_form input[type="file"], .rtl  .oe_form select{
@@ -885,4 +891,7 @@ body .o_form_view .o_group.o_inner_group.oe_subtotal_footer{
 .oe_module_action .pull-right {
     left: 8px;
     right: auto;
+}
+.o_form_view .oe_button_box .oe_stat_button {
+    text-align: right;
 }

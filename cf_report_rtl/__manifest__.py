@@ -19,24 +19,22 @@
 #
 ##############################################################################
 
-
 {
-    'name': 'Web RTL',
-    'version': '1.2',
-    'author': 'Mohammed Barsi',
+    'name': 'Report RTL',
+    'version': '11.0',
+    'author': 'codefish',
     'sequence': 4,
-    'category': 'Usability',
-    'summary': 'Web RTL (Right to Left) layout',
+    'summary': 'Report RTL (Right to Left) layout',
     'description':
         """
-Adding RTL (Right to Left) Support for Odoo.
-===========================================
+Adding RTL (Right to Left) Support for Reports.
+===============================================
 
-This module provides a propper RTL support for Odoo.
+This module provides a propper RTL support for Odoo's new report engine.
         """,
-    'depends': ['web'],
+    'depends': ['cf_web_rtl',],
     'auto_install': False,
     'data': [
-        'views/templates.xml',
+        'views/layout.xml',
     ],
 }

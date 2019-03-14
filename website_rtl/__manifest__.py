@@ -22,8 +22,8 @@
 
 {
     'name': 'Website RTL',
-    'version': '2.0',
-    'author': 'Mohammed Barsi',
+    'version': '11.0',
+    'author': 'codefish',
     'sequence': 4,
     'category': 'Website',
     'summary': 'Website RTL (Right to Left) layout',

@@ -5,5 +5,5 @@ class FixMomentLocale(WebClient):
     @http.route()
     def load_locale(self, lang):
         if lang.startswith('ar_'):
-            lang = 'ar_SA'
+            lang = 'ar_EG'
         return super(FixMomentLocale, self).load_locale(lang)
