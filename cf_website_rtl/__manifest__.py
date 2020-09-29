@@ -39,4 +39,6 @@ This module provides a propper RTL support for Odoo.
     'data': [
         'views/templates.xml',
     ],
+    'price': 2.00,
+    'currency': 'EUR',
 }
